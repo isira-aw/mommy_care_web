@@ -28,7 +28,7 @@ export default function FlashScreen({ onComplete }: FlashScreenProps) {
               stiffness: 100,
               damping: 20,
             }}
-            className="text-5xl font-extrabold text-primary-600"
+            className="text-5xl font-extrabold text-primary-600" style={{ color: '#8474CB' }}
           >
             {char}
           </motion.span>

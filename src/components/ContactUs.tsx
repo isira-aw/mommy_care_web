@@ -20,8 +20,8 @@ export default function ContactUs() {
     event.preventDefault();
     const form = new FormData(event.currentTarget);
 
-    form.append("access_key", "#");
-  //0f50776d-1bd6-4534-abf1-56e5c631935c
+    form.append("access_key", "0f50776d-1bd6-4534-abf1-56e5c631935c");
+  //
     try {
       const res = await fetch("https://api.web3forms.com/submit", {
         method: "POST",
@@ -51,7 +51,7 @@ export default function ContactUs() {
   return (
     <section id="contact" className="relative py-20 overflow-hidden">
       <div
-        className="absolute inset-0 bg-[url('/src/assets/pexels-polina.jpg')] bg-cover bg-center"
+        className="absolute inset-0 bg-[url('https://res.cloudinary.com/deusrvfhd/image/upload/v1740483611/mommy/ghvp109j4phzi8wyegdu.jpg')] bg-cover bg-center"
         style={{ filter: "blur(0.2px)" }}
       />
       <div className="absolute inset-0 bg-primary-100/90" />
@@ -138,7 +138,7 @@ export default function ContactUs() {
               />
               <button
                 type="submit"
-                className="w-full bg-primary-600 text-white py-3 px-6 rounded-lg font-semibold hover:bg-primary-700 transition-colors"
+                className="w-full bg-primary-600 text-white py-3 px-6 rounded-lg font-semibold hover:bg-primary-700 transition-colors bg-[#8474CB]" 
               >
                 SEND MESSAGE
               </button>

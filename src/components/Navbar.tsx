@@ -38,7 +38,7 @@ export default function Navbar() {
         <div className="flex justify-between h-16">
           <div className="flex items-center space-x-4">
             <motion.img 
-              src="/src/assets/logo.jpg" 
+              src="https://res.cloudinary.com/deusrvfhd/image/upload/v1740483607/mommy/btjvdohym758x3dwwihm.jpg" 
               alt="Logo" 
               className="logo-navbar h-12 w-12" 
               initial={{ opacity: 0, x: -20 }}
@@ -46,7 +46,7 @@ export default function Navbar() {
               transition={{ duration: 0.5 }}
             />
             <motion.span 
-              className="text-2xl font-bold text-primary-600"
+              className="text-2xl font-bold text-primary-600" style={{ color: '#8474CB' }}
               initial={{ opacity: 0, x: -20 }}
               animate={{ opacity: 1, x: 0 }}
               transition={{ duration: 0.5 }}
@@ -59,9 +59,14 @@ export default function Navbar() {
             <NavLink href="#home">Home</NavLink>
             <NavLink href="#features">Features</NavLink>
             <NavLink href="#about">About Us</NavLink>
-            <NavLink href="#contact" className="bg-primary-600 text-white px-4 py-2 rounded-md hover:bg-primary-700">
-              Contact Us
-            </NavLink>
+            <NavLink 
+  href="#contact" 
+  className="bg-[#8474CB] text-white px-4 py-2 rounded-md hover:bg-[#7560C4]"
+>
+  Contact Us
+</NavLink>
+
+
           </div>
 
           <button

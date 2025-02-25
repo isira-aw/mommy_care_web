@@ -12,7 +12,7 @@ export default function AboutUs() {
             className="relative"
           >
             <img
-              src="/src/assets/_ (6) 1.png"
+              src="https://res.cloudinary.com/deusrvfhd/image/upload/v1740483599/mommy/gcnffmqogelwfvc54q86.png"
               alt="Peaceful sleeping baby"
               className="rounded-lg shadow-xl w-full h-auto object-cover fixed-size-image-aboutus"
             />
